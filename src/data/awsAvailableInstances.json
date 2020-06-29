@@ -1,0 +1,2211 @@
+[
+    {
+        "purpose": "General Purpose",
+        "families": [
+            "A1",
+            "T3",
+            "T3a",
+            "T2",
+            "M6g",
+            "M5",
+            "M5a",
+            "M5n",
+            "M4"
+        ],
+        "tiers": [
+            {
+                "Instance": "a1.medium",
+                "vCPU": "1",
+                "Mem (GiB)": "2",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "a1.large",
+                "vCPU": "2",
+                "Mem (GiB)": "4",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "a1.xlarge",
+                "vCPU": "4",
+                "Mem (GiB)": "8",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "a1.2xlarge",
+                "vCPU": "8",
+                "Mem (GiB)": "16",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "a1.4xlarge",
+                "vCPU": "16",
+                "Mem (GiB)": "32",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "a1.metal",
+                "vCPU": "16*",
+                "Mem (GiB)": "32",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "t3.nano",
+                "vCPU*": "2",
+                "CPU Credits/hour": "6",
+                "Mem (GiB)": "0.5",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t3.micro",
+                "vCPU*": "2",
+                "CPU Credits/hour": "12",
+                "Mem (GiB)": "1",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t3.small",
+                "vCPU*": "2",
+                "CPU Credits/hour": "24",
+                "Mem (GiB)": "2",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t3.medium",
+                "vCPU*": "2",
+                "CPU Credits/hour": "24",
+                "Mem (GiB)": "4",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t3.large",
+                "vCPU*": "2",
+                "CPU Credits/hour": "36",
+                "Mem (GiB)": "8",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t3.xlarge",
+                "vCPU*": "4",
+                "CPU Credits/hour": "96",
+                "Mem (GiB)": "16",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t3.2xlarge",
+                "vCPU*": "8",
+                "CPU Credits/hour": "192",
+                "Mem (GiB)": "32",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t3a.nano",
+                "vCPU*": "2",
+                "CPU Credits/hour": "6",
+                "Mem (GiB)": "0.5",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t3a.micro",
+                "vCPU*": "2",
+                "CPU Credits/hour": "12",
+                "Mem (GiB)": "1",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t3a.small",
+                "vCPU*": "2",
+                "CPU Credits/hour": "24",
+                "Mem (GiB)": "2",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t3a.medium",
+                "vCPU*": "2",
+                "CPU Credits/hour": "24",
+                "Mem (GiB)": "4",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t3a.large",
+                "vCPU*": "2",
+                "CPU Credits/hour": "36",
+                "Mem (GiB)": "8",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t3a.xlarge",
+                "vCPU*": "4",
+                "CPU Credits/hour": "96",
+                "Mem (GiB)": "16",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t3a.2xlarge",
+                "vCPU*": "8",
+                "CPU Credits/hour": "192",
+                "Mem (GiB)": "32",
+                "Storage": "EBS-Only",
+                "Network Performance (Gbps)": "Up to 5"
+            },
+            {
+                "Instance": "t2.nano",
+                "vCPU*": "1",
+                "CPU Credits / hour": "3",
+                "Mem (GiB)": "0.5",
+                "": "EBS-Only",
+                "Network Performance": "Low"
+            },
+            {
+                "Instance": "t2.micro",
+                "vCPU*": "1",
+                "CPU Credits / hour": "6",
+                "Mem (GiB)": "1",
+                "": "EBS-Only",
+                "Network Performance": "Low to Moderate"
+            },
+            {
+                "Instance": "t2.small",
+                "vCPU*": "1",
+                "CPU Credits / hour": "12",
+                "Mem (GiB)": "2",
+                "": "EBS-Only",
+                "Network Performance": "Low to Moderate"
+            },
+            {
+                "Instance": "t2.medium",
+                "vCPU*": "2",
+                "CPU Credits / hour": "24",
+                "Mem (GiB)": "4",
+                "": "EBS-Only",
+                "Network Performance": "Low to Moderate"
+            },
+            {
+                "Instance": "t2.large",
+                "vCPU*": "2",
+                "CPU Credits / hour": "36",
+                "Mem (GiB)": "8",
+                "": "EBS-Only",
+                "Network Performance": "Low to Moderate"
+            },
+            {
+                "Instance": "t2.xlarge",
+                "vCPU*": "4",
+                "CPU Credits / hour": "54",
+                "Mem (GiB)": "16",
+                "": "EBS-Only",
+                "Network Performance": "Moderate"
+            },
+            {
+                "Instance": "t2.2xlarge",
+                "vCPU*": "8",
+                "CPU Credits / hour": "81",
+                "Mem (GiB)": "32",
+                "": "EBS-Only",
+                "Network Performance": "Moderate"
+            },
+            {
+                "Instance Size": "m6g.medium",
+                "vCPU": "1",
+                "Memory (GiB)": "4",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m6g.large",
+                "vCPU": "2",
+                "Memory (GiB)": "8",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m6g.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "16",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m6g.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "32",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m6g.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "64",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Instance Size": "m6g.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "128",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "12",
+                "EBS Bandwidth (Mbps)": "9,000"
+            },
+            {
+                "Instance Size": "m6g.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "192",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "20",
+                "EBS Bandwidth (Mbps)": "13,500"
+            },
+            {
+                "Instance Size": "m6g.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "256",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance Size": "m6g.metal",
+                "vCPU": "64",
+                "Memory (GiB)": "256",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance Size": "m5.large",
+                "vCPU": "2",
+                "Memory (GiB)": "8",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m5.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "16",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m5.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "32",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m5.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "64",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Instance Size": "m5.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "128",
+                "Instance Storage": "EBS Only",
+                "Network Bandwidth (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "6,800"
+            },
+            {
+                "Instance Size": "m5.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "192",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Instance Size": "m5.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "256",
+                "Instance Storage": "EBS Only",
+                "Network Bandwidth (Gbps)": "20",
+                "EBS Bandwidth (Mbps)": "13,600"
+            },
+            {
+                "Instance Size": "m5.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "384",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance Size": "m5.metal",
+                "vCPU": "96*",
+                "Memory (GiB)": "384",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance Size": "m5d.large",
+                "vCPU": "2",
+                "Memory (GiB)": "8",
+                "Instance Storage": "1 x 75 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m5d.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "16",
+                "Instance Storage": "1 x 150 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m5d.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "32",
+                "Instance Storage": "1 x 300 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m5d.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "64",
+                "Instance Storage": "2 x 300 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Instance Size": "m5d.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "128",
+                "Instance Storage": "2 x 600 NVMe SSD",
+                "Network Bandwidth (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "6,800"
+            },
+            {
+                "Instance Size": "m5d.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "192",
+                "Instance Storage": "2 x 900 NVMe SSD",
+                "Network Bandwidth (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Instance Size": "m5d.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "256",
+                "Instance Storage": "4 x 600 NVMe SSD",
+                "Network Bandwidth (Gbps)": "20",
+                "EBS Bandwidth (Mbps)": "13,600"
+            },
+            {
+                "Instance Size": "m5d.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "384",
+                "Instance Storage": "4 x 900 NVMe SSD",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance Size": "m5d.metal",
+                "vCPU": "96*",
+                "Memory (GiB)": "384",
+                "Instance Storage": "4 x 900 NVMe SSD",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance Size": "m5a.large",
+                "vCPU": "2",
+                "Memory (GiB)": "8",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 2,880"
+            },
+            {
+                "Instance Size": "m5a.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "16",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 2,880"
+            },
+            {
+                "Instance Size": "m5a.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "32",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 2,880"
+            },
+            {
+                "Instance Size": "m5a.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "64",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "2,880"
+            },
+            {
+                "Instance Size": "m5a.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "128",
+                "Instance Storage": "EBS Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Instance Size": "m5a.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "192",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "6,780"
+            },
+            {
+                "Instance Size": "m5a.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "256",
+                "Instance Storage": "EBS Only",
+                "Network Bandwidth (Gbps)": "12",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Instance Size": "m5a.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "384",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "20",
+                "EBS Bandwidth (Mbps)": "13,570"
+            },
+            {
+                "Instance Size": "m5ad.large",
+                "vCPU": "2",
+                "Memory (GiB)": "8",
+                "Instance Storage": "1 x 75 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 2,880"
+            },
+            {
+                "Instance Size": "m5ad.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "16",
+                "Instance Storage": "1 x 150 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 2,880"
+            },
+            {
+                "Instance Size": "m5ad.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "32",
+                "Instance Storage": "1 x 300 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 2,880"
+            },
+            {
+                "Instance Size": "m5ad.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "64",
+                "Instance Storage": "2 x 300 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "2,880"
+            },
+            {
+                "Instance Size": "m5ad.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "192",
+                "Instance Storage": "2 x 900 NVMe SSD",
+                "Network Bandwidth (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "6,870"
+            },
+            {
+                "Instance Size": "m5ad.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "384",
+                "Instance Storage": "4 x 900 NVMe SSD",
+                "Network Bandwidth (Gbps)": "20",
+                "EBS Bandwidth (Mbps)": "13,570"
+            },
+            {
+                "Instance Size": "m5n.large",
+                "vCPU": "2",
+                "Memory (GiB)": "8",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m5n.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "16",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m5n.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "32",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m5n.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "64",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Instance Size": "m5n.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "128",
+                "Instance Storage": "EBS Only",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "6,800"
+            },
+            {
+                "Instance Size": "m5n.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "192",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "50",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Instance Size": "m5n.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "256",
+                "Instance Storage": "EBS Only",
+                "Network Bandwidth (Gbps)": "75",
+                "EBS Bandwidth (Mbps)": "13,600"
+            },
+            {
+                "Instance Size": "m5n.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "384",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "100",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance Size": "m5dn.large",
+                "vCPU": "2",
+                "Memory (GiB)": "8",
+                "Instance Storage": "1 x 75 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m5dn.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "16",
+                "Instance Storage": "1 x 150 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m5dn.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "32",
+                "Instance Storage": "1 x 300 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "m5dn.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "64",
+                "Instance Storage": "2 x 300 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Instance Size": "m5dn.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "128",
+                "Instance Storage": "2 x 600 NVMe SSD",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "6,800"
+            },
+            {
+                "Instance Size": "m5dn.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "192",
+                "Instance Storage": "2 x 900 NVMe SSD",
+                "Network Bandwidth (Gbps)": "50",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Instance Size": "m5dn.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "256",
+                "Instance Storage": "4 x 600 NVMe SSD",
+                "Network Bandwidth (Gbps)": "75",
+                "EBS Bandwidth (Mbps)": "13,600"
+            },
+            {
+                "Instance Size": "m5dn.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "384",
+                "Instance Storage": "4 x 900 NVMe SSD",
+                "Network Bandwidth (Gbps)": "100",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance": "m4.large",
+                "vCPU*": "2",
+                "Mem (GiB)": "8",
+                "Storage": "EBS-only",
+                "Dedicated EBS Bandwidth (Mbps)": "450",
+                "Network Performance": "Moderate"
+            },
+            {
+                "Instance": "m4.xlarge",
+                "vCPU*": "4",
+                "Mem (GiB)": "16",
+                "Storage": "EBS-only",
+                "Dedicated EBS Bandwidth (Mbps)": "750",
+                "Network Performance": "High"
+            },
+            {
+                "Instance": "m4.2xlarge",
+                "vCPU*": "8",
+                "Mem (GiB)": "32",
+                "Storage": "EBS-only",
+                "Dedicated EBS Bandwidth (Mbps)": "1,000",
+                "Network Performance": "High"
+            },
+            {
+                "Instance": "m4.4xlarge",
+                "vCPU*": "16",
+                "Mem (GiB)": "64",
+                "Storage": "EBS-only",
+                "Dedicated EBS Bandwidth (Mbps)": "2,000",
+                "Network Performance": "High"
+            },
+            {
+                "Instance": "m4.10xlarge",
+                "vCPU*": "40",
+                "Mem (GiB)": "160",
+                "Storage": "EBS-only",
+                "Dedicated EBS Bandwidth (Mbps)": "4,000",
+                "Network Performance": "10 Gigabit"
+            },
+            {
+                "Instance": "m4.16xlarge",
+                "vCPU*": "64",
+                "Mem (GiB)": "256",
+                "Storage": "EBS-only",
+                "Dedicated EBS Bandwidth (Mbps)": "10,000",
+                "Network Performance": "25 Gigabit"
+            }
+        ]
+    },
+    {
+        "purpose": "Compute Optimized",
+        "families": [
+            "C6g",
+            "C5",
+            "C5a",
+            "C5n",
+            "C4"
+        ],
+        "tiers": [
+            {
+                "Instance Size": "c6g.medium",
+                "vCPU": "1",
+                "Memory (GiB)": "2",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "c6g.large",
+                "vCPU": "2",
+                "Memory (GiB)": "4",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "c6g.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "8",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "c6g.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "16",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "c6g.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "32",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Instance Size": "c6g.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "64",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "12",
+                "EBS Bandwidth (Mbps)": "9,000"
+            },
+            {
+                "Instance Size": "c6g.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "96",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "20",
+                "EBS Bandwidth (Mbps)": "13,500"
+            },
+            {
+                "Instance Size": "c6g.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "128",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance Size": "c6g.metal",
+                "vCPU": "64",
+                "Memory (GiB)": "128",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Model": "c5.large",
+                "vCPU": "2",
+                "Memory (GiB)": "4",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Model": "c5.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "8",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Model": "c5.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "16",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Model": "c5.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "32",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Model": "c5.9xlarge",
+                "vCPU": "36",
+                "Memory (GiB)": "72",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Model": "c5.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "96",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "12",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Model": "c5.18xlarge",
+                "vCPU": "72",
+                "Memory (GiB)": "144",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Model": "c5.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "192",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Model": "c5.metal",
+                "vCPU": "96",
+                "Memory (GiB)": "192",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Model": "c5d.large",
+                "vCPU": "2",
+                "Memory (GiB)": "4",
+                "Instance Storage (GiB)": "1 x 50 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Model": "c5d.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "8",
+                "Instance Storage (GiB)": "1 x 100 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Model": "c5d.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "16",
+                "Instance Storage (GiB)": "1 x 200 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Model": "c5d.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "32",
+                "Instance Storage (GiB)": "1 x 400 NVMe SSD",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Model": "c5d.9xlarge",
+                "vCPU": "36",
+                "Memory (GiB)": "72",
+                "Instance Storage (GiB)": "1 x 900 NVMe SSD",
+                "Network Bandwidth (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Model": "c5d.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "96",
+                "Instance Storage (GiB)": "2 x 900 NVMe SSD",
+                "Network Bandwidth (Gbps)": "12",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Model": "c5d.18xlarge",
+                "vCPU": "72",
+                "Memory (GiB)": "144",
+                "Instance Storage (GiB)": "2 x 900 NVMe SSD",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Model": "c5d.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "192",
+                "Instance Storage (GiB)": "4 x 900 NVMe SSD",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Model": "c5d.metal",
+                "vCPU": "96",
+                "Memory (GiB)": "192",
+                "Instance Storage (GiB)": "4 x 900 NVMe SSD",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Model": "c5a.large",
+                "vCPU": "2",
+                "Memory (GiB)": "4",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 3,170"
+            },
+            {
+                "Model": "c5a.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "8",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 3,170"
+            },
+            {
+                "Model": "c5a.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "16",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 3,170"
+            },
+            {
+                "Model": "c5a.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "32",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 3,170"
+            },
+            {
+                "Model": "c5a.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "64",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "3,170"
+            },
+            {
+                "Model": "c5a.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "96",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "12",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Model": "c5a.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "128",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "20",
+                "EBS Bandwidth (Mbps)": "6,300"
+            },
+            {
+                "Model": "c5a.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "192",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "20",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Model": "c5n.large",
+                "vCPU": "2",
+                "Memory (GiB)": "5.25",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Model": "c5n.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "10.5",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Model": "c5n.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "21",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Model": "c5n.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "42",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Model": "c5n.9xlarge",
+                "vCPU": "36",
+                "Memory (GiB)": "96",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "50",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Model": "c5n.18xlarge",
+                "vCPU": "72",
+                "Memory (GiB)": "192",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "100",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Model": "c5n.metal",
+                "vCPU": "72",
+                "Memory (GiB)": "192",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Network Bandwidth (Gbps)": "100",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance": "c4.large",
+                "vCPU*": "2",
+                "Mem (GiB)": "3.75",
+                "Storage": "EBS-Only",
+                "Dedicated EBS Bandwidth (Mbps)": "500",
+                "Network Performance": "Moderate"
+            },
+            {
+                "Instance": "c4.xlarge",
+                "vCPU*": "4",
+                "Mem (GiB)": "7.5",
+                "Storage": "EBS-Only",
+                "Dedicated EBS Bandwidth (Mbps)": "750",
+                "Network Performance": "High"
+            },
+            {
+                "Instance": "c4.2xlarge",
+                "vCPU*": "8",
+                "Mem (GiB)": "15",
+                "Storage": "EBS-Only",
+                "Dedicated EBS Bandwidth (Mbps)": "1,000",
+                "Network Performance": "High"
+            },
+            {
+                "Instance": "c4.4xlarge",
+                "vCPU*": "16",
+                "Mem (GiB)": "30",
+                "Storage": "EBS-Only",
+                "Dedicated EBS Bandwidth (Mbps)": "2,000",
+                "Network Performance": "High"
+            },
+            {
+                "Instance": "c4.8xlarge",
+                "vCPU*": "36",
+                "Mem (GiB)": "60",
+                "Storage": "EBS-Only",
+                "Dedicated EBS Bandwidth (Mbps)": "4,000",
+                "Network Performance": "10 Gigabit"
+            }
+        ]
+    },
+    {
+        "purpose": "Memory Optimized",
+        "families": [
+            "R6g",
+            "R5",
+            "R5a",
+            "R5n",
+            "R4",
+            "X1e",
+            "X1",
+            "High Memory",
+            "z1d"
+        ],
+        "tiers": [
+            {
+                "Instance Size": "r6g.medium",
+                "vCPU": "1",
+                "Memory (GiB)": "8",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "r6g.large",
+                "vCPU": "2",
+                "Memory (GiB)": "16",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "r6g.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "32",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "r6g.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "64",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance Size": "r6g.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "128",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Instance Size": "r6g.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "256",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "12",
+                "EBS Bandwidth (Mbps)": "9,000"
+            },
+            {
+                "Instance Size": "r6g.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "384",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "20",
+                "EBS Bandwidth (Mbps)": "13,500"
+            },
+            {
+                "Instance Size": "r6g.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "512",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance Size": "r6g.metal",
+                "vCPU": "64",
+                "Memory (GiB)": "512",
+                "Instance Storage": "EBS-Only",
+                "Network Bandwidth (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance": "r5.large",
+                "vCPU": "2",
+                "Memory (GiB)": "16",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance": "r5.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "32",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance": "r5.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "64",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance": "r5.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "128",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "up to 10",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Instance": "r5.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "256",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "6,800"
+            },
+            {
+                "Instance": "r5.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "384",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Instance": "r5.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "512",
+                "Instance Storage (GiB)": "EBS Only",
+                "Networking Performance (Gbps)": "20",
+                "EBS Bandwidth (Mbps)": "13,600"
+            },
+            {
+                "Instance": "r5.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "768",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance": "r5.metal",
+                "vCPU": "96*",
+                "Memory (GiB)": "768",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance": "r5d.large",
+                "vCPU": "2",
+                "Memory (GiB)": "16",
+                "Instance Storage (GiB)": "1 x 75 NVMe SSD",
+                "Networking Performance (Gbps)": "up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance": "r5d.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "32",
+                "Instance Storage (GiB)": "1 x 150 NVMe SSD",
+                "Networking Performance (Gbps)": "up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance": "r5d.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "64",
+                "Instance Storage (GiB)": "1 x 300 NVMe SSD",
+                "Networking Performance (Gbps)": "up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance": "r5d.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "128",
+                "Instance Storage (GiB)": "2 x 300 NVMe SSD",
+                "Networking Performance (Gbps)": "up to 10",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Instance": "r5d.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "256",
+                "Instance Storage (GiB)": "2 x 600 NVMe SSD",
+                "Networking Performance (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "6,800"
+            },
+            {
+                "Instance": "r5d.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "384",
+                "Instance Storage (GiB)": "2 x 900 NVMe SSD",
+                "Networking Performance (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Instance": "r5d.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "512",
+                "Instance Storage (GiB)": "4 x 600 NVMe SSD",
+                "Networking Performance (Gbps)": "20",
+                "EBS Bandwidth (Mbps)": "13,600"
+            },
+            {
+                "Instance": "r5d.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "768",
+                "Instance Storage (GiB)": "4 x 900 NVMe SSD",
+                "Networking Performance (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance": "r5d.metal",
+                "vCPU": "96*",
+                "Memory (GiB)": "768",
+                "Instance Storage (GiB)": "4 x 900 NVMe SSD",
+                "Networking Performance (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance Size": "r5a.large",
+                "vCPU": "2",
+                "Memory (GiB)": "16",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 2,880"
+            },
+            {
+                "Instance Size": "r5a.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "32",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 2,880"
+            },
+            {
+                "Instance Size": "r5a.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "64",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 2,880"
+            },
+            {
+                "Instance Size": "r5a.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "128",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "2,880"
+            },
+            {
+                "Instance Size": "r5a.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "256",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Instance Size": "r5a.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "384",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "6,780"
+            },
+            {
+                "Instance Size": "r5a.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "512",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "12",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Instance Size": "r5a.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "768",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "20",
+                "EBS Bandwidth (Mbps)": "13,570"
+            },
+            {
+                "Instance Size": "r5ad.large",
+                "vCPU": "2",
+                "Memory (GiB)": "16",
+                "Instance Storage (GiB)": "1 x 75 NVMe SSD",
+                "Networking Performance (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 2,880"
+            },
+            {
+                "Instance Size": "r5ad.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "32",
+                "Instance Storage (GiB)": "1 x 150 NVMe SSD",
+                "Networking Performance (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 2,880"
+            },
+            {
+                "Instance Size": "r5ad.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "64",
+                "Instance Storage (GiB)": "1 x 300 NVMe SSD",
+                "Networking Performance (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "Up to 2,880"
+            },
+            {
+                "Instance Size": "r5ad.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "128",
+                "Instance Storage (GiB)": "2 x 300 NVMe SSD",
+                "Networking Performance (Gbps)": "Up to 10",
+                "EBS Bandwidth (Mbps)": "2,880"
+            },
+            {
+                "Instance Size": "r5ad.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "384",
+                "Instance Storage (GiB)": "2 x 900 NVMe SSD",
+                "Networking Performance (Gbps)": "10",
+                "EBS Bandwidth (Mbps)": "6,780"
+            },
+            {
+                "Instance Size": "r5ad.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "768",
+                "Instance Storage (GiB)": "4 x 900 NVMe SSD",
+                "Networking Performance (Gbps)": "20",
+                "EBS Bandwidth (Mbps)": "13,570"
+            },
+            {
+                "Instance": "r5n.large",
+                "vCPU": "2",
+                "Memory (GiB)": "16",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance": "r5n.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "32",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance": "r5n.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "64",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance": "r5n.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "128",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Instance": "r5n.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "256",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "6,800"
+            },
+            {
+                "Instance": "r5n.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "384",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "50",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Instance": "r5n.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "512",
+                "Instance Storage (GiB)": "EBS Only",
+                "Networking Performance (Gbps)": "75",
+                "EBS Bandwidth (Mbps)": "13,600"
+            },
+            {
+                "Instance": "r5n.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "768",
+                "Instance Storage (GiB)": "EBS-Only",
+                "Networking Performance (Gbps)": "100",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance": "r5dn.large",
+                "vCPU": "2",
+                "Memory (GiB)": "16",
+                "Instance Storage (GiB)": "1 x 75 NVMe SSD",
+                "Networking Performance (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance": "r5dn.xlarge",
+                "vCPU": "4",
+                "Memory (GiB)": "32",
+                "Instance Storage (GiB)": "1 x 150 NVMe SSD",
+                "Networking Performance (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance": "r5dn.2xlarge",
+                "vCPU": "8",
+                "Memory (GiB)": "64",
+                "Instance Storage (GiB)": "1 x 300 NVMe SSD",
+                "Networking Performance (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "Up to 4,750"
+            },
+            {
+                "Instance": "r5dn.4xlarge",
+                "vCPU": "16",
+                "Memory (GiB)": "128",
+                "Instance Storage (GiB)": "2 x 300 NVMe SSD",
+                "Networking Performance (Gbps)": "Up to 25",
+                "EBS Bandwidth (Mbps)": "4,750"
+            },
+            {
+                "Instance": "r5dn.8xlarge",
+                "vCPU": "32",
+                "Memory (GiB)": "256",
+                "Instance Storage (GiB)": "2 x 600 NVMe SSD",
+                "Networking Performance (Gbps)": "25",
+                "EBS Bandwidth (Mbps)": "6,800"
+            },
+            {
+                "Instance": "r5dn.12xlarge",
+                "vCPU": "48",
+                "Memory (GiB)": "384",
+                "Instance Storage (GiB)": "2 x 900 NVMe SSD",
+                "Networking Performance (Gbps)": "50",
+                "EBS Bandwidth (Mbps)": "9,500"
+            },
+            {
+                "Instance": "r5dn.16xlarge",
+                "vCPU": "64",
+                "Memory (GiB)": "512",
+                "Instance Storage (GiB)": "4 x 600 NVMe SSD",
+                "Networking Performance (Gbps)": "75",
+                "EBS Bandwidth (Mbps)": "13,600"
+            },
+            {
+                "Instance": "r5dn.24xlarge",
+                "vCPU": "96",
+                "Memory (GiB)": "768",
+                "Instance Storage (GiB)": "4 x 900 NVMe SSD",
+                "Networking Performance (Gbps)": "100",
+                "EBS Bandwidth (Mbps)": "19,000"
+            },
+            {
+                "Instance": "r4.large",
+                "vCPU": "2",
+                "Mem (GiB)": "15.25",
+                "Storage": "EBS-Only",
+                "Networking Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "r4.xlarge",
+                "vCPU": "4",
+                "Mem (GiB)": "30.5",
+                "Storage": "EBS-Only",
+                "Networking Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "r4.2xlarge",
+                "vCPU": "8",
+                "Mem (GiB)": "61",
+                "Storage": "EBS-Only",
+                "Networking Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "r4.4xlarge",
+                "vCPU": "16",
+                "Mem (GiB)": "122",
+                "Storage": "EBS-Only",
+                "Networking Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "r4.8xlarge",
+                "vCPU": "32",
+                "Mem (GiB)": "244",
+                "Storage": "EBS-Only",
+                "Networking Performance (Gbps)": "10"
+            },
+            {
+                "Instance": "r4.16xlarge",
+                "vCPU": "64",
+                "Mem (GiB)": "488",
+                "Storage": "EBS-Only",
+                "Networking Performance (Gbps)": "25"
+            },
+            {
+                "Instance": "x1e.xlarge",
+                "vCPU": "4",
+                "Mem (GiB)": "122",
+                "SSD Storage (GB)": "1 x 120",
+                "Dedicated EBS Bandwidth (Mbps)": "500",
+                "Networking Performance": "Up to 10 Gigabit"
+            },
+            {
+                "Instance": "x1e.2xlarge",
+                "vCPU": "8",
+                "Mem (GiB)": "244",
+                "SSD Storage (GB)": "1 x 240",
+                "Dedicated EBS Bandwidth (Mbps)": "1,000",
+                "Networking Performance": "Up to 10 Gigabit"
+            },
+            {
+                "Instance": "x1e.4xlarge",
+                "vCPU": "16",
+                "Mem (GiB)": "488",
+                "SSD Storage (GB)": "1 x 480",
+                "Dedicated EBS Bandwidth (Mbps)": "1,750",
+                "Networking Performance": "Up to 10 Gigabit"
+            },
+            {
+                "Instance": "x1e.8xlarge",
+                "vCPU": "32",
+                "Mem (GiB)": "976",
+                "SSD Storage (GB)": "1 x 960",
+                "Dedicated EBS Bandwidth (Mbps)": "3,500",
+                "Networking Performance": "Up to 10 Gigabit"
+            },
+            {
+                "Instance": "x1e.16xlarge",
+                "vCPU": "64",
+                "Mem (GiB)": "1,952",
+                "SSD Storage (GB)": "1 x 1,920",
+                "Dedicated EBS Bandwidth (Mbps)": "7,000",
+                "Networking Performance": "10 Gigabit"
+            },
+            {
+                "Instance": "x1e.32xlarge",
+                "vCPU": "128",
+                "Mem (GiB)": "3,904",
+                "SSD Storage (GB)": "2 x 1,920",
+                "Dedicated EBS Bandwidth (Mbps)": "14,000",
+                "Networking Performance": "25 Gigabit"
+            },
+            {
+                "Instance": "x1.16xlarge",
+                "vCPU": "64",
+                "Mem (GiB)": "976",
+                "SSD Storage (GB)": "1 x 1,920",
+                "Dedicated EBS Bandwidth (Mbps)": "7,000",
+                "Network Performance": "10 Gigabit"
+            },
+            {
+                "Instance": "x1.32xlarge",
+                "vCPU": "128",
+                "Mem (GiB)": "1,952",
+                "SSD Storage (GB)": "2 x 1,920",
+                "Dedicated EBS Bandwidth (Mbps)": "14,000",
+                "Network Performance": "25 Gigabit"
+            },
+            {
+                "Name": "u-6tb1.metal**",
+                "Logical Processors*": "448",
+                "RAM (GiB)": "6144",
+                "Network Perf (Gbps)": "100",
+                "Dedicated EBS Bandwidth (Gbps)": "38"
+            },
+            {
+                "Name": "u-9tb1.metal**",
+                "Logical Processors*": "448",
+                "RAM (GiB)": "9216",
+                "Network Perf (Gbps)": "100",
+                "Dedicated EBS Bandwidth (Gbps)": "38"
+            },
+            {
+                "Name": "u-12tb1.metal**",
+                "Logical Processors*": "448",
+                "RAM (GiB)": "12288",
+                "Network Perf (Gbps)": "100",
+                "Dedicated EBS Bandwidth (Gbps)": "38"
+            },
+            {
+                "Name": "u-18tb1.metal",
+                "Logical Processors*": "448",
+                "RAM (GiB)": "18432",
+                "Network Perf (Gbps)": "100",
+                "Dedicated EBS Bandwidth (Gbps)": "38"
+            },
+            {
+                "Name": "u-24tb1.metal",
+                "Logical Processors*": "448",
+                "RAM (GiB)": "24576",
+                "Network Perf (Gbps)": "100",
+                "Dedicated EBS Bandwidth (Gbps)": "38"
+            },
+            {
+                "Instance": "z1d.large",
+                "vCPU": "2",
+                "Mem (GiB)": "16",
+                "Networking Performance": "Up to 10 Gigabit",
+                "SSD Storage (GB)": "1 x 75 NVMe SSD"
+            },
+            {
+                "Instance": "z1d.xlarge",
+                "vCPU": "4",
+                "Mem (GiB)": "32",
+                "Networking Performance": "Up to 10 Gigabit",
+                "SSD Storage (GB)": "1 x 150 NVMe SSD"
+            },
+            {
+                "Instance": "z1d.2xlarge",
+                "vCPU": "8",
+                "Mem (GiB)": "64",
+                "Networking Performance": "Up to 10 Gigabit",
+                "SSD Storage (GB)": "1 x 300 NVMe SSD"
+            },
+            {
+                "Instance": "z1d.3xlarge",
+                "vCPU": "12",
+                "Mem (GiB)": "96",
+                "Networking Performance": "Up to 10 Gigabit",
+                "SSD Storage (GB)": "1 x 450 NVMe SSD"
+            },
+            {
+                "Instance": "z1d.6xlarge",
+                "vCPU": "24",
+                "Mem (GiB)": "192",
+                "Networking Performance": "10 Gigabit",
+                "SSD Storage (GB)": "1 x 900 NVMe SSD"
+            },
+            {
+                "Instance": "z1d.12xlarge",
+                "vCPU": "48",
+                "Mem (GiB)": "384",
+                "Networking Performance": "25 Gigabit",
+                "SSD Storage (GB)": "2 x 900 NVMe SSD"
+            },
+            {
+                "Instance": "z1d.metal",
+                "vCPU": "48*",
+                "Mem (GiB)": "384",
+                "Networking Performance": "25 Gigabit",
+                "SSD Storage (GB)": "2 x 900 NVMe SSD"
+            }
+        ]
+    },
+    {
+        "purpose": "Accelerated Computing",
+        "families": [
+            "P3",
+            "P2",
+            "Inf1",
+            "G4",
+            "G3",
+            "F1"
+        ],
+        "tiers": [
+            {
+                "Instance": "p3.2xlarge",
+                "GPUs": "1",
+                "vCPU": "8",
+                "Mem (GiB)": "61",
+                "GPU Mem (GiB)": "16",
+                "GPU P2P": "-",
+                "Storage (GB)": "EBS-Only",
+                "Dedicated EBS Bandwidth": "1.5 Gbps",
+                "Networking Performance": "Up to 10 Gigabit"
+            },
+            {
+                "Instance": "p3.8xlarge",
+                "GPUs": "4",
+                "vCPU": "32",
+                "Mem (GiB)": "244",
+                "GPU Mem (GiB)": "64",
+                "GPU P2P": "NVLink",
+                "Storage (GB)": "EBS-Only",
+                "Dedicated EBS Bandwidth": "7 Gbps",
+                "Networking Performance": "10 Gigabit"
+            },
+            {
+                "Instance": "p3.16xlarge",
+                "GPUs": "8",
+                "vCPU": "64",
+                "Mem (GiB)": "488",
+                "GPU Mem (GiB)": "128",
+                "GPU P2P": "NVLink",
+                "Storage (GB)": "EBS-Only",
+                "Dedicated EBS Bandwidth": "14 Gbps",
+                "Networking Performance": "25 Gigabit"
+            },
+            {
+                "Instance": "p3dn.24xlarge",
+                "GPUs": "8",
+                "vCPU": "96",
+                "Mem (GiB)": "768",
+                "GPU Mem (GiB)": "256",
+                "GPU P2P": "NVLink",
+                "Storage (GB)": "2 x 900 NVMe SSD",
+                "Dedicated EBS Bandwidth": "19 Gbps",
+                "Networking Performance": "100 Gigabit"
+            },
+            {
+                "Instance": "p2.xlarge",
+                "GPUs": "1",
+                "vCPU": "4",
+                "Mem (GiB)": "61",
+                "GPU Memory (GiB)": "12",
+                "Network Performance": "High"
+            },
+            {
+                "Instance": "p2.8xlarge",
+                "GPUs": "8",
+                "vCPU": "32",
+                "Mem (GiB)": "488",
+                "GPU Memory (GiB)": "96",
+                "Network Performance": "10 Gigabit"
+            },
+            {
+                "Instance": "p2.16xlarge",
+                "GPUs": "16",
+                "vCPU": "64",
+                "Mem (GiB)": "732",
+                "GPU Memory (GiB)": "192",
+                "Network Performance": "25 Gigabit"
+            },
+            {
+                "Instance size": "inf1.xlarge",
+                "vCPUs": "4",
+                "Memory (GiB)": "8",
+                "Storage": "EBS only",
+                "Inferentia chips": "1",
+                "Inferentia chip-to-chip interconnect": "N/A",
+                "Network bandwidth": "Up to 25 Gbps",
+                "EBS bandwidth": "Up to 4.75 Gbps"
+            },
+            {
+                "Instance size": "inf1.2xlarge",
+                "vCPUs": "8",
+                "Memory (GiB)": "16",
+                "Storage": "EBS only",
+                "Inferentia chips": "1",
+                "Inferentia chip-to-chip interconnect": "N/A",
+                "Network bandwidth": "Up to 25 Gbps",
+                "EBS bandwidth": "Up to 4.75 Gbps"
+            },
+            {
+                "Instance size": "inf1.6xlarge",
+                "vCPUs": "24",
+                "Memory (GiB)": "48",
+                "Storage": "EBS only",
+                "Inferentia chips": "4",
+                "Inferentia chip-to-chip interconnect": "Yes",
+                "Network bandwidth": "25 Gbps",
+                "EBS bandwidth": "4.75 Gbps"
+            },
+            {
+                "Instance size": "inf1.24xlarge",
+                "vCPUs": "96",
+                "Memory (GiB)": "192",
+                "Storage": "EBS only",
+                "Inferentia chips": "16",
+                "Inferentia chip-to-chip interconnect": "Yes",
+                "Network bandwidth": "100 Gbps",
+                "EBS bandwidth": "19 Gbps"
+            },
+            {
+                "": "Single GPU VMs",
+                "Instance": "g4dn.xlarge",
+                "GPUs": "1",
+                "vCPU": "4",
+                "Mem (GiB)": "16",
+                "GPU Memory (GiB)": "16",
+                "Instance Storage (GB)": "125",
+                "Network Performance (Gbps)": "Up to 25"
+            },
+            {
+                "": "g4dn.2xlarge",
+                "Instance": "1",
+                "GPUs": "8",
+                "vCPU": "32",
+                "Mem (GiB)": "16",
+                "GPU Memory (GiB)": "225",
+                "Instance Storage (GB)": "Up to 25",
+                "Network Performance (Gbps)": ""
+            },
+            {
+                "": "g4dn.4xlarge",
+                "Instance": "1",
+                "GPUs": "16",
+                "vCPU": "64",
+                "Mem (GiB)": "16",
+                "GPU Memory (GiB)": "225",
+                "Instance Storage (GB)": "Up to 25",
+                "Network Performance (Gbps)": ""
+            },
+            {
+                "": "g4dn.8xlarge",
+                "Instance": "1",
+                "GPUs": "32",
+                "vCPU": "128",
+                "Mem (GiB)": "16",
+                "GPU Memory (GiB)": "1x900",
+                "Instance Storage (GB)": "50",
+                "Network Performance (Gbps)": ""
+            },
+            {
+                "": "g4dn.16xlarge",
+                "Instance": "1",
+                "GPUs": "64",
+                "vCPU": "256",
+                "Mem (GiB)": "16",
+                "GPU Memory (GiB)": "1x900",
+                "Instance Storage (GB)": "50",
+                "Network Performance (Gbps)": ""
+            },
+            {
+                "": "",
+                "Instance": "",
+                "GPUs": "",
+                "vCPU": "",
+                "Mem (GiB)": "",
+                "GPU Memory (GiB)": "",
+                "Instance Storage (GB)": "",
+                "Network Performance (Gbps)": ""
+            },
+            {
+                "": "Multi GPU VMs",
+                "Instance": "g4dn.12xlarge",
+                "GPUs": "4",
+                "vCPU": "48",
+                "Mem (GiB)": "192",
+                "GPU Memory (GiB)": "64",
+                "Instance Storage (GB)": "1x900",
+                "Network Performance (Gbps)": "50"
+            },
+            {
+                "": "g4dn.metal",
+                "Instance": "8",
+                "GPUs": "96",
+                "vCPU": "384",
+                "Mem (GiB)": "128",
+                "GPU Memory (GiB)": "2x900",
+                "Instance Storage (GB)": "100",
+                "Network Performance (Gbps)": ""
+            },
+            {
+                "Instance": "g3s.xlarge",
+                "GPUs": "1",
+                "vCPU": "4",
+                "Mem (GiB)": "30.5",
+                "GPU Memory (GiB)": "8",
+                "Network Performance": "Up to 10 Gigabit"
+            },
+            {
+                "Instance": "g3.4xlarge",
+                "GPUs": "1",
+                "vCPU": "16",
+                "Mem (GiB)": "122",
+                "GPU Memory (GiB)": "8",
+                "Network Performance": "Up to 10 Gigabit"
+            },
+            {
+                "Instance": "g3.8xlarge",
+                "GPUs": "2",
+                "vCPU": "32",
+                "Mem (GiB)": "244",
+                "GPU Memory (GiB)": "16",
+                "Network Performance": "10 Gigabit"
+            },
+            {
+                "Instance": "g3.16xlarge",
+                "GPUs": "4",
+                "vCPU": "64",
+                "Mem (GiB)": "488",
+                "GPU Memory (GiB)": "32",
+                "Network Performance": "25 Gigabit"
+            },
+            {
+                "Instance": "f1.2xlarge",
+                "FPGAs": "1",
+                "vCPU": "8",
+                "Mem (GiB)": "122",
+                "SSD Storage (GB)": "470",
+                "Networking Performance": "Up to 10 Gigabit"
+            },
+            {
+                "Instance": "f1.4xlarge",
+                "FPGAs": "2",
+                "vCPU": "16",
+                "Mem (GiB)": "244",
+                "SSD Storage (GB)": "940",
+                "Networking Performance": "Up to 10 Gigabit"
+            },
+            {
+                "Instance": "f1.16xlarge",
+                "FPGAs": "8",
+                "vCPU": "64",
+                "Mem (GiB)": "976",
+                "SSD Storage (GB)": "4 x 940",
+                "Networking Performance": "25 Gigabit"
+            }
+        ]
+    },
+    {
+        "purpose": "Storage Optimized",
+        "families": [
+            "I3",
+            "I3en",
+            "D2",
+            "H1"
+        ],
+        "tiers": [
+            {
+                "Instance": "i3.large",
+                "vCPU*": "2",
+                "Mem (GiB)": "15.25",
+                "Local Storage (GB)": "1 x 475 NVMe SSD",
+                "Networking Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "i3.xlarge",
+                "vCPU*": "4",
+                "Mem (GiB)": "30.5",
+                "Local Storage (GB)": "1 x 950 NVMe SSD",
+                "Networking Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "i3.2xlarge",
+                "vCPU*": "8",
+                "Mem (GiB)": "61",
+                "Local Storage (GB)": "1 x 1,900 NVMe SSD",
+                "Networking Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "i3.4xlarge",
+                "vCPU*": "16",
+                "Mem (GiB)": "122",
+                "Local Storage (GB)": "2 x 1,900 NVMe SSD",
+                "Networking Performance (Gbps)": "Up to 10"
+            },
+            {
+                "Instance": "i3.8xlarge",
+                "vCPU*": "32",
+                "Mem (GiB)": "244",
+                "Local Storage (GB)": "4 x 1,900 NVMe SSD",
+                "Networking Performance (Gbps)": "10"
+            },
+            {
+                "Instance": "i3.16xlarge",
+                "vCPU*": "64",
+                "Mem (GiB)": "488",
+                "Local Storage (GB)": "8 x 1,900 NVMe SSD",
+                "Networking Performance (Gbps)": "25"
+            },
+            {
+                "Instance": "i3.metal",
+                "vCPU*": "72**",
+                "Mem (GiB)": "512",
+                "Local Storage (GB)": "8 x 1,900 NVMe SSD",
+                "Networking Performance (Gbps)": "25"
+            },
+            {
+                "Instance": "i3en.large",
+                "vCPU": "2",
+                "Mem (GiB)": "16",
+                "Local Storage (GB)": "1 x 1,250 NVMe SSD",
+                "Network Bandwidth": "Up to 25 Gbps"
+            },
+            {
+                "Instance": "i3en.xlarge",
+                "vCPU": "4",
+                "Mem (GiB)": "32",
+                "Local Storage (GB)": "1 x 2,500 NVMe SSD",
+                "Network Bandwidth": "Up to 25 Gbps"
+            },
+            {
+                "Instance": "i3en.2xlarge",
+                "vCPU": "8",
+                "Mem (GiB)": "64",
+                "Local Storage (GB)": "2 x 2,500 NVMe SSD",
+                "Network Bandwidth": "Up to 25 Gbps"
+            },
+            {
+                "Instance": "i3en.3xlarge",
+                "vCPU": "12",
+                "Mem (GiB)": "96",
+                "Local Storage (GB)": "1 x 7,500 NVMe SSD",
+                "Network Bandwidth": "Up to 25 Gbps"
+            },
+            {
+                "Instance": "i3en.6xlarge",
+                "vCPU": "24",
+                "Mem (GiB)": "192",
+                "Local Storage (GB)": "2 x 7,500 NVMe SSD",
+                "Network Bandwidth": "25 Gbps"
+            },
+            {
+                "Instance": "i3en.12xlarge",
+                "vCPU": "48",
+                "Mem (GiB)": "384",
+                "Local Storage (GB)": "4 x 7,500 NVMe SSD",
+                "Network Bandwidth": "50 Gbps"
+            },
+            {
+                "Instance": "i3en.24xlarge",
+                "vCPU": "96",
+                "Mem (GiB)": "768",
+                "Local Storage (GB)": "8 x 7,500 NVMe SSD",
+                "Network Bandwidth": "100 Gbps"
+            },
+            {
+                "Instance": "i3en.metal",
+                "vCPU": "96",
+                "Mem (GiB)": "768",
+                "Local Storage (GB)": "8 x 7,500 NVMe SSD",
+                "Network Bandwidth": "100 Gbps"
+            },
+            {
+                "Instance": "d2.xlarge",
+                "vCPU*": "4",
+                "Mem (GiB)": "30.5",
+                "Storage (GB)": "3 x 2000 HDD",
+                "Network Performance": "Moderate"
+            },
+            {
+                "Instance": "d2.2xlarge",
+                "vCPU*": "8",
+                "Mem (GiB)": "61",
+                "Storage (GB)": "6 x 2000 HDD",
+                "Network Performance": "High"
+            },
+            {
+                "Instance": "d2.4xlarge",
+                "vCPU*": "16",
+                "Mem (GiB)": "122",
+                "Storage (GB)": "12 x 2000 HDD",
+                "Network Performance": "High"
+            },
+            {
+                "Instance": "d2.8xlarge",
+                "vCPU*": "36",
+                "Mem (GiB)": "244",
+                "Storage (GB)": "24 x 2000 HDD",
+                "Network Performance": "10 Gigabit"
+            },
+            {
+                "Instance": "h1.2xlarge",
+                "vCPU*": "8",
+                "Mem (GiB)": "32",
+                "Networking Performance": "Up to 10 Gigabit",
+                "Storage (GB)": "1 x 2,000 HDD"
+            },
+            {
+                "Instance": "h1.4xlarge",
+                "vCPU*": "16",
+                "Mem (GiB)": "64",
+                "Networking Performance": "Up to 10 Gigabit",
+                "Storage (GB)": "2 x 2,000 HDD"
+            },
+            {
+                "Instance": "h1.8xlarge",
+                "vCPU*": "32",
+                "Mem (GiB)": "128",
+                "Networking Performance": "10 Gigabit",
+                "Storage (GB)": "4 x 2,000 HDD"
+            },
+            {
+                "Instance": "h1.16xlarge",
+                "vCPU*": "64",
+                "Mem (GiB)": "256",
+                "Networking Performance": "25 Gigabit",
+                "Storage (GB)": "8 x 2,000 HDD"
+            }
+        ]
+    }
+]

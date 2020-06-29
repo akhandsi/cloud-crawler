@@ -1,0 +1,481 @@
+[
+    {
+        "type": "A-series",
+        "instance": [
+            {
+                "Size": "ExtraSmall",
+                "CPU cores": "1",
+                "Memory: GiB": "0.768",
+                "Temporary Storage: GiB": "20",
+                "Max NICs / Network bandwidth": "1 / low"
+            },
+            {
+                "Size": "Small",
+                "CPU cores": "1",
+                "Memory: GiB": "1.75",
+                "Temporary Storage: GiB": "225",
+                "Max NICs / Network bandwidth": "1 / moderate"
+            },
+            {
+                "Size": "Medium",
+                "CPU cores": "2",
+                "Memory: GiB": "3.5",
+                "Temporary Storage: GiB": "490",
+                "Max NICs / Network bandwidth": "1 / moderate"
+            },
+            {
+                "Size": "Large",
+                "CPU cores": "4",
+                "Memory: GiB": "7",
+                "Temporary Storage: GiB": "1000",
+                "Max NICs / Network bandwidth": "2 / high"
+            },
+            {
+                "Size": "ExtraLarge",
+                "CPU cores": "8",
+                "Memory: GiB": "14",
+                "Temporary Storage: GiB": "2040",
+                "Max NICs / Network bandwidth": "4 / high"
+            },
+            {
+                "Size": "A5",
+                "CPU cores": "2",
+                "Memory: GiB": "14",
+                "Temporary Storage: GiB": "490",
+                "Max NICs / Network bandwidth": "1 / moderate"
+            },
+            {
+                "Size": "A6",
+                "CPU cores": "4",
+                "Memory: GiB": "28",
+                "Temporary Storage: GiB": "1000",
+                "Max NICs / Network bandwidth": "2 / high"
+            },
+            {
+                "Size": "A7",
+                "CPU cores": "8",
+                "Memory: GiB": "56",
+                "Temporary Storage: GiB": "2040",
+                "Max NICs / Network bandwidth": "4 / high"
+            }
+        ]
+    },
+    {
+        "type": "A-series - compute-intensive instances",
+        "instance": [
+            {
+                "Size": "A8*",
+                "CPU cores": "8",
+                "Memory: GiB": "56",
+                "Temporary Storage: GiB": "1817",
+                "Max NICs / Network bandwidth": "2 / high"
+            },
+            {
+                "Size": "A9*",
+                "CPU cores": "16",
+                "Memory: GiB": "112",
+                "Temporary Storage: GiB": "1817",
+                "Max NICs / Network bandwidth": "4 / very high"
+            },
+            {
+                "Size": "A10",
+                "CPU cores": "8",
+                "Memory: GiB": "56",
+                "Temporary Storage: GiB": "1817",
+                "Max NICs / Network bandwidth": "2 / high"
+            },
+            {
+                "Size": "A11",
+                "CPU cores": "16",
+                "Memory: GiB": "112",
+                "Temporary Storage: GiB": "1817",
+                "Max NICs / Network bandwidth": "4 / very high"
+            }
+        ]
+    },
+    {
+        "type": "Av2-series",
+        "instance": [
+            {
+                "Size": "Standard_A1_v2",
+                "CPU cores": "1",
+                "Memory: GiB": "2",
+                "Temporary Storage (SSD): GiB": "10",
+                "Max NICs / Network bandwidth": "1 / moderate"
+            },
+            {
+                "Size": "Standard_A2_v2",
+                "CPU cores": "2",
+                "Memory: GiB": "4",
+                "Temporary Storage (SSD): GiB": "20",
+                "Max NICs / Network bandwidth": "2 / moderate"
+            },
+            {
+                "Size": "Standard_A4_v2",
+                "CPU cores": "4",
+                "Memory: GiB": "8",
+                "Temporary Storage (SSD): GiB": "40",
+                "Max NICs / Network bandwidth": "4 / high"
+            },
+            {
+                "Size": "Standard_A8_v2",
+                "CPU cores": "8",
+                "Memory: GiB": "16",
+                "Temporary Storage (SSD): GiB": "80",
+                "Max NICs / Network bandwidth": "8 / high"
+            },
+            {
+                "Size": "Standard_A2m_v2",
+                "CPU cores": "2",
+                "Memory: GiB": "16",
+                "Temporary Storage (SSD): GiB": "20",
+                "Max NICs / Network bandwidth": "2 / moderate"
+            },
+            {
+                "Size": "Standard_A4m_v2",
+                "CPU cores": "4",
+                "Memory: GiB": "32",
+                "Temporary Storage (SSD): GiB": "40",
+                "Max NICs / Network bandwidth": "4 / high"
+            },
+            {
+                "Size": "Standard_A8m_v2",
+                "CPU cores": "8",
+                "Memory: GiB": "64",
+                "Temporary Storage (SSD): GiB": "80",
+                "Max NICs / Network bandwidth": "8 / high"
+            }
+        ]
+    },
+    {
+        "type": "D-series",
+        "instance": [
+            {
+                "Size": "Standard_D1",
+                "CPU cores": "1",
+                "Memory: GiB": "3.5",
+                "Temporary Storage (SSD): GiB": "50",
+                "Max NICs / Network bandwidth": "1 / moderate"
+            },
+            {
+                "Size": "Standard_D2",
+                "CPU cores": "2",
+                "Memory: GiB": "7",
+                "Temporary Storage (SSD): GiB": "100",
+                "Max NICs / Network bandwidth": "2 / high"
+            },
+            {
+                "Size": "Standard_D3",
+                "CPU cores": "4",
+                "Memory: GiB": "14",
+                "Temporary Storage (SSD): GiB": "200",
+                "Max NICs / Network bandwidth": "4 / high"
+            },
+            {
+                "Size": "Standard_D4",
+                "CPU cores": "8",
+                "Memory: GiB": "28",
+                "Temporary Storage (SSD): GiB": "400",
+                "Max NICs / Network bandwidth": "8 / high"
+            },
+            {
+                "Size": "Standard_D11",
+                "CPU cores": "2",
+                "Memory: GiB": "14",
+                "Temporary Storage (SSD): GiB": "100",
+                "Max NICs / Network bandwidth": "2 / high"
+            },
+            {
+                "Size": "Standard_D12",
+                "CPU cores": "4",
+                "Memory: GiB": "28",
+                "Temporary Storage (SSD): GiB": "200",
+                "Max NICs / Network bandwidth": "4 / high"
+            },
+            {
+                "Size": "Standard_D13",
+                "CPU cores": "8",
+                "Memory: GiB": "56",
+                "Temporary Storage (SSD): GiB": "400",
+                "Max NICs / Network bandwidth": "8 / high"
+            },
+            {
+                "Size": "Standard_D14",
+                "CPU cores": "16",
+                "Memory: GiB": "112",
+                "Temporary Storage (SSD): GiB": "800",
+                "Max NICs / Network bandwidth": "8 / very high"
+            }
+        ]
+    },
+    {
+        "type": "Dv2-series",
+        "instance": [
+            {
+                "Size": "Standard_D1_v2",
+                "CPU cores": "1",
+                "Memory: GiB": "3.5",
+                "Temporary Storage (SSD): GiB": "50",
+                "Max NICs / Network bandwidth": "1 / moderate"
+            },
+            {
+                "Size": "Standard_D2_v2",
+                "CPU cores": "2",
+                "Memory: GiB": "7",
+                "Temporary Storage (SSD): GiB": "100",
+                "Max NICs / Network bandwidth": "2 / high"
+            },
+            {
+                "Size": "Standard_D3_v2",
+                "CPU cores": "4",
+                "Memory: GiB": "14",
+                "Temporary Storage (SSD): GiB": "200",
+                "Max NICs / Network bandwidth": "4 / high"
+            },
+            {
+                "Size": "Standard_D4_v2",
+                "CPU cores": "8",
+                "Memory: GiB": "28",
+                "Temporary Storage (SSD): GiB": "400",
+                "Max NICs / Network bandwidth": "8 / high"
+            },
+            {
+                "Size": "Standard_D5_v2",
+                "CPU cores": "16",
+                "Memory: GiB": "56",
+                "Temporary Storage (SSD): GiB": "800",
+                "Max NICs / Network bandwidth": "8 / extremely high"
+            },
+            {
+                "Size": "Standard_D11_v2",
+                "CPU cores": "2",
+                "Memory: GiB": "14",
+                "Temporary Storage (SSD): GiB": "100",
+                "Max NICs / Network bandwidth": "2 / high"
+            },
+            {
+                "Size": "Standard_D12_v2",
+                "CPU cores": "4",
+                "Memory: GiB": "28",
+                "Temporary Storage (SSD): GiB": "200",
+                "Max NICs / Network bandwidth": "4 / high"
+            },
+            {
+                "Size": "Standard_D13_v2",
+                "CPU cores": "8",
+                "Memory: GiB": "56",
+                "Temporary Storage (SSD): GiB": "400",
+                "Max NICs / Network bandwidth": "8 / high"
+            },
+            {
+                "Size": "Standard_D14_v2",
+                "CPU cores": "16",
+                "Memory: GiB": "112",
+                "Temporary Storage (SSD): GiB": "800",
+                "Max NICs / Network bandwidth": "8 / extremely high"
+            },
+            {
+                "Size": "Standard_D15_v2",
+                "CPU cores": "20",
+                "Memory: GiB": "140",
+                "Temporary Storage (SSD): GiB": "1,000",
+                "Max NICs / Network bandwidth": "8 / extremely high"
+            }
+        ]
+    },
+    {
+        "type": "Dv3-series",
+        "instance": [
+            {
+                "Size": "Standard_D2_v3",
+                "CPU cores": "2",
+                "Memory: GiB": "8",
+                "Temporary Storage (SSD): GiB": "50",
+                "Max NICs / Network bandwidth": "2 / moderate"
+            },
+            {
+                "Size": "Standard_D4_v3",
+                "CPU cores": "4",
+                "Memory: GiB": "16",
+                "Temporary Storage (SSD): GiB": "100",
+                "Max NICs / Network bandwidth": "2 / high"
+            },
+            {
+                "Size": "Standard_D8_v3",
+                "CPU cores": "8",
+                "Memory: GiB": "32",
+                "Temporary Storage (SSD): GiB": "200",
+                "Max NICs / Network bandwidth": "4 / high"
+            },
+            {
+                "Size": "Standard_D16_v3",
+                "CPU cores": "16",
+                "Memory: GiB": "64",
+                "Temporary Storage (SSD): GiB": "400",
+                "Max NICs / Network bandwidth": "8 / extremely high"
+            },
+            {
+                "Size": "Standard_D32_v3",
+                "CPU cores": "32",
+                "Memory: GiB": "128",
+                "Temporary Storage (SSD): GiB": "800",
+                "Max NICs / Network bandwidth": "8 / extremely high"
+            },
+            {
+                "Size": "Standard_D48_v3",
+                "CPU cores": "48",
+                "Memory: GiB": "192",
+                "Temporary Storage (SSD): GiB": "1200",
+                "Max NICs / Network bandwidth": "8 / extremely high"
+            },
+            {
+                "Size": "Standard_D64_v3",
+                "CPU cores": "64",
+                "Memory: GiB": "256",
+                "Temporary Storage (SSD): GiB": "1600",
+                "Max NICs / Network bandwidth": "8 / extremely high"
+            }
+        ]
+    },
+    {
+        "type": "Ev3-series",
+        "instance": [
+            {
+                "Size": "Standard_E2_v3",
+                "CPU cores": "2",
+                "Memory: GiB": "16",
+                "Temporary Storage (SSD): GiB": "50",
+                "Max NICs / Network bandwidth": "2 / moderate"
+            },
+            {
+                "Size": "Standard_E4_v3",
+                "CPU cores": "4",
+                "Memory: GiB": "32",
+                "Temporary Storage (SSD): GiB": "100",
+                "Max NICs / Network bandwidth": "2 / high"
+            },
+            {
+                "Size": "Standard_E8_v3",
+                "CPU cores": "8",
+                "Memory: GiB": "64",
+                "Temporary Storage (SSD): GiB": "200",
+                "Max NICs / Network bandwidth": "4 / high"
+            },
+            {
+                "Size": "Standard_E16_v3",
+                "CPU cores": "16",
+                "Memory: GiB": "128",
+                "Temporary Storage (SSD): GiB": "400",
+                "Max NICs / Network bandwidth": "8 / extremely high"
+            },
+            {
+                "Size": "Standard_E32_v3",
+                "CPU cores": "32",
+                "Memory: GiB": "256",
+                "Temporary Storage (SSD): GiB": "800",
+                "Max NICs / Network bandwidth": "8 / extremely high"
+            },
+            {
+                "Size": "Standard_E48_v3",
+                "CPU cores": "48",
+                "Memory: GiB": "384",
+                "Temporary Storage (SSD): GiB": "1200",
+                "Max NICs / Network bandwidth": "8 / extremely high"
+            },
+            {
+                "Size": "Standard_E64_v3",
+                "CPU cores": "64",
+                "Memory: GiB": "432",
+                "Temporary Storage (SSD): GiB": "1600",
+                "Max NICs / Network bandwidth": "8 / extremely high"
+            }
+        ]
+    },
+    {
+        "type": "G-series",
+        "instance": [
+            {
+                "Size": "Standard_G1",
+                "CPU cores": "2",
+                "Memory: GiB": "28",
+                "Temporary Storage (SSD): GiB": "384",
+                "Max NICs / Network bandwidth": "1 / high"
+            },
+            {
+                "Size": "Standard_G2",
+                "CPU cores": "4",
+                "Memory: GiB": "56",
+                "Temporary Storage (SSD): GiB": "768",
+                "Max NICs / Network bandwidth": "2 / high"
+            },
+            {
+                "Size": "Standard_G3",
+                "CPU cores": "8",
+                "Memory: GiB": "112",
+                "Temporary Storage (SSD): GiB": "1,536",
+                "Max NICs / Network bandwidth": "4 / very high"
+            },
+            {
+                "Size": "Standard_G4",
+                "CPU cores": "16",
+                "Memory: GiB": "224",
+                "Temporary Storage (SSD): GiB": "3,072",
+                "Max NICs / Network bandwidth": "8 / extremely high"
+            },
+            {
+                "Size": "Standard_G5",
+                "CPU cores": "32",
+                "Memory: GiB": "448",
+                "Temporary Storage (SSD): GiB": "6,144",
+                "Max NICs / Network bandwidth": "8 / extremely high"
+            }
+        ]
+    },
+    {
+        "type": "H-series",
+        "instance": [
+            {
+                "Size": "Standard_H8",
+                "CPU cores": "8",
+                "Memory: GiB": "56",
+                "Temporary Storage (SSD): GiB": "1000",
+                "Max NICs / Network bandwidth": "8 / high"
+            },
+            {
+                "Size": "Standard_H16",
+                "CPU cores": "16",
+                "Memory: GiB": "112",
+                "Temporary Storage (SSD): GiB": "2000",
+                "Max NICs / Network bandwidth": "8 / very high"
+            },
+            {
+                "Size": "Standard_H8m",
+                "CPU cores": "8",
+                "Memory: GiB": "112",
+                "Temporary Storage (SSD): GiB": "1000",
+                "Max NICs / Network bandwidth": "8 / high"
+            },
+            {
+                "Size": "Standard_H16m",
+                "CPU cores": "16",
+                "Memory: GiB": "224",
+                "Temporary Storage (SSD): GiB": "2000",
+                "Max NICs / Network bandwidth": "8 / very high"
+            },
+            {
+                "Size": "Standard_H16r*",
+                "CPU cores": "16",
+                "Memory: GiB": "112",
+                "Temporary Storage (SSD): GiB": "2000",
+                "Max NICs / Network bandwidth": "8 / very high"
+            },
+            {
+                "Size": "Standard_H16mr*",
+                "CPU cores": "16",
+                "Memory: GiB": "224",
+                "Temporary Storage (SSD): GiB": "2000",
+                "Max NICs / Network bandwidth": "8 / very high"
+            }
+        ]
+    }
+]

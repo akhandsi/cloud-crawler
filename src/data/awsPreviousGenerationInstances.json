@@ -1,0 +1,332 @@
+[
+    {
+        "Instance Family": "General purpose",
+        "Instance Type": "m1.small",
+        "Processor Arch": "32-bit or 64-bit",
+        "vCPU": "1",
+        "Memory (GiB)": "1.7",
+        "Instance Storage (GB)": "1 x 160",
+        "EBS-optimized Available": "-",
+        "Network Performance": "Low"
+    },
+    {
+        "Instance Family": "General purpose",
+        "Instance Type": "m1.medium",
+        "Processor Arch": "32-bit or 64-bit",
+        "vCPU": "1",
+        "Memory (GiB)": "3.75",
+        "Instance Storage (GB)": "1 x 410",
+        "EBS-optimized Available": "-",
+        "Network Performance": "Moderate"
+    },
+    {
+        "Instance Family": "General purpose",
+        "Instance Type": "m1.large",
+        "Processor Arch": "64-bit",
+        "vCPU": "2",
+        "Memory (GiB)": "7.5",
+        "Instance Storage (GB)": "2 x 420",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "Moderate"
+    },
+    {
+        "Instance Family": "General purpose",
+        "Instance Type": "m1.xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "4",
+        "Memory (GiB)": "15",
+        "Instance Storage (GB)": "4 x 420",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "High"
+    },
+    {
+        "Instance Family": "General purpose",
+        "Instance Type": "m3.medium",
+        "Processor Arch": "64-bit",
+        "vCPU": "1",
+        "Memory (GiB)": "3.75",
+        "Instance Storage (GB)": "1 x 4",
+        "EBS-optimized Available": "-",
+        "Network Performance": "Moderate"
+    },
+    {
+        "Instance Family": "General purpose",
+        "Instance Type": "m3.large",
+        "Processor Arch": "64-bit",
+        "vCPU": "2",
+        "Memory (GiB)": "7.5",
+        "Instance Storage (GB)": "1 x 32",
+        "EBS-optimized Available": "-",
+        "Network Performance": "Moderate"
+    },
+    {
+        "Instance Family": "General purpose",
+        "Instance Type": "m3.xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "4",
+        "Memory (GiB)": "15",
+        "Instance Storage (GB)": "2 x 40",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "High"
+    },
+    {
+        "Instance Family": "General purpose",
+        "Instance Type": "m3.2xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "8",
+        "Memory (GiB)": "30",
+        "Instance Storage (GB)": "2 x 80",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "High"
+    },
+    {
+        "Instance Family": "Compute optimized",
+        "Instance Type": "c1.medium",
+        "Processor Arch": "32-bit or 64-bit",
+        "vCPU": "2",
+        "Memory (GiB)": "1.7",
+        "Instance Storage (GB)": "1 x 350",
+        "EBS-optimized Available": "-",
+        "Network Performance": "Moderate"
+    },
+    {
+        "Instance Family": "Compute optimized",
+        "Instance Type": "c1.xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "8",
+        "Memory (GiB)": "7",
+        "Instance Storage (GB)": "4 x 420",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "High"
+    },
+    {
+        "Instance Family": "Compute optimized",
+        "Instance Type": "cc2.8xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "32",
+        "Memory (GiB)": "60.5",
+        "Instance Storage (GB)": "4 x 840",
+        "EBS-optimized Available": "-",
+        "Network Performance": "10 Gigabit"
+    },
+    {
+        "Instance Family": "Compute optimized",
+        "Instance Type": "c3.large",
+        "Processor Arch": "64-bit",
+        "vCPU": "2",
+        "Memory (GiB)": "3.75",
+        "Instance Storage (GB)": "2 x 16",
+        "EBS-optimized Available": "-",
+        "Network Performance": "Moderate"
+    },
+    {
+        "Instance Family": "Compute optimized",
+        "Instance Type": "c3.xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "4",
+        "Memory (GiB)": "7.5",
+        "Instance Storage (GB)": "2 x 40",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "Moderate"
+    },
+    {
+        "Instance Family": "Compute optimized",
+        "Instance Type": "c3.2xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "8",
+        "Memory (GiB)": "15",
+        "Instance Storage (GB)": "2 x 80",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "High"
+    },
+    {
+        "Instance Family": "Compute optimized",
+        "Instance Type": "c3.4xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "16",
+        "Memory (GiB)": "30",
+        "Instance Storage (GB)": "2 x 160",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "High"
+    },
+    {
+        "Instance Family": "Compute optimized",
+        "Instance Type": "c3.8xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "32",
+        "Memory (GiB)": "60",
+        "Instance Storage (GB)": "2 x 320",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "10 Gigabit"
+    },
+    {
+        "Instance Family": "GPU optimized",
+        "Instance Type": "g2.2xlarge*",
+        "Processor Arch": "64-bit",
+        "vCPU": "8",
+        "Memory (GiB)": "15",
+        "Instance Storage (GB)": "1 x 60",
+        "EBS-optimized Available": "",
+        "Network Performance": ""
+    },
+    {
+        "Instance Family": "GPU optimized",
+        "Instance Type": "g2.8xlarge**",
+        "Processor Arch": "64-bit",
+        "vCPU": "32",
+        "Memory (GiB)": "60",
+        "Instance Storage (GB)": "2 x 120",
+        "EBS-optimized Available": "",
+        "Network Performance": ""
+    },
+    {
+        "Instance Family": "Memory optimized",
+        "Instance Type": "m2.xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "2",
+        "Memory (GiB)": "17.1",
+        "Instance Storage (GB)": "1 x 420",
+        "EBS-optimized Available": "-",
+        "Network Performance": "Moderate"
+    },
+    {
+        "Instance Family": "Memory optimized",
+        "Instance Type": "m2.2xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "4",
+        "Memory (GiB)": "34.2",
+        "Instance Storage (GB)": "1 x 850",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "Moderate"
+    },
+    {
+        "Instance Family": "Memory optimized",
+        "Instance Type": "m2.4xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "8",
+        "Memory (GiB)": "68.4",
+        "Instance Storage (GB)": "2 x 840",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "High"
+    },
+    {
+        "Instance Family": "Memory optimized",
+        "Instance Type": "cr1.8xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "32",
+        "Memory (GiB)": "244",
+        "Instance Storage (GB)": "2 x 120",
+        "EBS-optimized Available": "-",
+        "Network Performance": "10 Gigabit"
+    },
+    {
+        "Instance Family": "Memory optimized",
+        "Instance Type": "r3.large",
+        "Processor Arch": "64-bit",
+        "vCPU": "2",
+        "Memory (GiB)": "15.25",
+        "Instance Storage (GB)": "1 x 32",
+        "EBS-optimized Available": "-",
+        "Network Performance": "Moderate"
+    },
+    {
+        "Instance Family": "Memory optimized",
+        "Instance Type": "r3.xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "4",
+        "Memory (GiB)": "30.5",
+        "Instance Storage (GB)": "1 x 80",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "Moderate"
+    },
+    {
+        "Instance Family": "Memory optimized",
+        "Instance Type": "r3.2xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "8",
+        "Memory (GiB)": "61",
+        "Instance Storage (GB)": "2 x 160",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "High"
+    },
+    {
+        "Instance Family": "Memory optimized",
+        "Instance Type": "r3.4xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "16",
+        "Memory (GiB)": "122",
+        "Instance Storage (GB)": "1 x 320",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "High"
+    },
+    {
+        "Instance Family": "Memory optimized",
+        "Instance Type": "r3.8xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "32",
+        "Memory (GiB)": "244",
+        "Instance Storage (GB)": "2 x 320",
+        "EBS-optimized Available": "-",
+        "Network Performance": "10 Gigabit"
+    },
+    {
+        "Instance Family": "Storage optimized",
+        "Instance Type": "i2.xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "4",
+        "Memory (GiB)": "30.5",
+        "Instance Storage (GB)": "1 x 800",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "Moderate"
+    },
+    {
+        "Instance Family": "Storage optimized",
+        "Instance Type": "i2.2xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "8",
+        "Memory (GiB)": "61",
+        "Instance Storage (GB)": "2 x 800",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "Moderate"
+    },
+    {
+        "Instance Family": "Storage optimized",
+        "Instance Type": "i2.4xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "16",
+        "Memory (GiB)": "122",
+        "Instance Storage (GB)": "4 x 800",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "High"
+    },
+    {
+        "Instance Family": "Storage optimized",
+        "Instance Type": "i2.8xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "32",
+        "Memory (GiB)": "244",
+        "Instance Storage (GB)": "8 x 800",
+        "EBS-optimized Available": "Yes",
+        "Network Performance": "10 Gigabit"
+    },
+    {
+        "Instance Family": "Storage optimized",
+        "Instance Type": "hs1.8xlarge",
+        "Processor Arch": "64-bit",
+        "vCPU": "16",
+        "Memory (GiB)": "117",
+        "Instance Storage (GB)": "24 x 2,000",
+        "EBS-optimized Available": "-",
+        "Network Performance": "10 Gigabit"
+    },
+    {
+        "Instance Family": "Micro",
+        "Instance Type": "t1.micro",
+        "Processor Arch": "32-bit or 64-bit",
+        "vCPU": "1",
+        "Memory (GiB)": "0.613",
+        "Instance Storage (GB)": "EBS Only",
+        "EBS-optimized Available": "-",
+        "Network Performance": "Very Low"
+    }
+]

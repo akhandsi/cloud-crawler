@@ -1,0 +1,704 @@
+[
+    {
+        "type": "F-series",
+        "instance": [
+            {
+                "Size": "Standard_F1",
+                "vCPU": "1",
+                "Memory: GiB": "2",
+                "Temp storage (SSD) GiB": "16",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "3000/46/23",
+                "Max data disks/throughput: IOPS": "4/4x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/750"
+            },
+            {
+                "Size": "Standard_F2",
+                "vCPU": "2",
+                "Memory: GiB": "4",
+                "Temp storage (SSD) GiB": "32",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "6000/93/46",
+                "Max data disks/throughput: IOPS": "8/8x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/1500"
+            },
+            {
+                "Size": "Standard_F4",
+                "vCPU": "4",
+                "Memory: GiB": "8",
+                "Temp storage (SSD) GiB": "64",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "12000/187/93",
+                "Max data disks/throughput: IOPS": "16/16x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "4/3000"
+            },
+            {
+                "Size": "Standard_F8",
+                "vCPU": "8",
+                "Memory: GiB": "16",
+                "Temp storage (SSD) GiB": "128",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "24000/375/187",
+                "Max data disks/throughput: IOPS": "32/32x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/6000"
+            },
+            {
+                "Size": "Standard_F16",
+                "vCPU": "16",
+                "Memory: GiB": "32",
+                "Temp storage (SSD) GiB": "256",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "48000/750/375",
+                "Max data disks/throughput: IOPS": "64/64x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/12000"
+            }
+        ]
+    },
+    {
+        "type": "Fs-series ",
+        "instance": [
+            {
+                "Size": "Standard_F1s",
+                "vCPU": "1",
+                "Memory: GiB": "2",
+                "Temp storage (SSD) GiB": "4",
+                "Max data disks": "4",
+                "Max cached and temp storage throughput: IOPS/MBps (cache size in GiB)": "4000/32 (12)",
+                "Max uncached disk throughput: IOPS/MBps": "3200/48",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/750"
+            },
+            {
+                "Size": "Standard_F2s",
+                "vCPU": "2",
+                "Memory: GiB": "4",
+                "Temp storage (SSD) GiB": "8",
+                "Max data disks": "8",
+                "Max cached and temp storage throughput: IOPS/MBps (cache size in GiB)": "8000/64 (24)",
+                "Max uncached disk throughput: IOPS/MBps": "6400/96",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/1500"
+            },
+            {
+                "Size": "Standard_F4s",
+                "vCPU": "4",
+                "Memory: GiB": "8",
+                "Temp storage (SSD) GiB": "16",
+                "Max data disks": "16",
+                "Max cached and temp storage throughput: IOPS/MBps (cache size in GiB)": "16000/128 (48)",
+                "Max uncached disk throughput: IOPS/MBps": "12800/192",
+                "Max NICs/Expected network bandwidth (Mbps)": "4/3000"
+            },
+            {
+                "Size": "Standard_F8s",
+                "vCPU": "8",
+                "Memory: GiB": "16",
+                "Temp storage (SSD) GiB": "32",
+                "Max data disks": "32",
+                "Max cached and temp storage throughput: IOPS/MBps (cache size in GiB)": "32000/256 (96)",
+                "Max uncached disk throughput: IOPS/MBps": "25600/384",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/6000"
+            },
+            {
+                "Size": "Standard_F16s",
+                "vCPU": "16",
+                "Memory: GiB": "32",
+                "Temp storage (SSD) GiB": "64",
+                "Max data disks": "64",
+                "Max cached and temp storage throughput: IOPS/MBps (cache size in GiB)": "64000/512 (192)",
+                "Max uncached disk throughput: IOPS/MBps": "51200/768",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/12000"
+            }
+        ]
+    },
+    {
+        "type": "NVv2-series",
+        "instance": [
+            {
+                "Size": "Standard_NV6s_v2",
+                "vCPU": "6",
+                "Memory: GiB": "112",
+                "Temp storage (SSD) GiB": "320",
+                "GPU": "1",
+                "GPU memory: GiB": "8",
+                "Max data disks": "12",
+                "Max NICs": "4",
+                "Virtual Workstations": "1",
+                "Virtual Applications": "25"
+            },
+            {
+                "Size": "Standard_NV12s_v2",
+                "vCPU": "12",
+                "Memory: GiB": "224",
+                "Temp storage (SSD) GiB": "640",
+                "GPU": "2",
+                "GPU memory: GiB": "16",
+                "Max data disks": "24",
+                "Max NICs": "8",
+                "Virtual Workstations": "2",
+                "Virtual Applications": "50"
+            },
+            {
+                "Size": "Standard_NV24s_v2",
+                "vCPU": "24",
+                "Memory: GiB": "448",
+                "Temp storage (SSD) GiB": "1280",
+                "GPU": "4",
+                "GPU memory: GiB": "32",
+                "Max data disks": "32",
+                "Max NICs": "8",
+                "Virtual Workstations": "4",
+                "Virtual Applications": "100"
+            }
+        ]
+    },
+    {
+        "type": "Basic A",
+        "instance": [
+            {
+                "Size – Size\\Name": "A0\\Basic_A0",
+                "vCPU": "1",
+                "Memory": "768 MB",
+                "NICs (Max)": "2",
+                "Max temporary disk size": "20 GB",
+                "Max. data disks (1023 GB each)": "1",
+                "Max. IOPS (300 per disk)": "1x300"
+            },
+            {
+                "Size – Size\\Name": "A1\\Basic_A1",
+                "vCPU": "1",
+                "Memory": "1.75 GB",
+                "NICs (Max)": "2",
+                "Max temporary disk size": "40 GB",
+                "Max. data disks (1023 GB each)": "2",
+                "Max. IOPS (300 per disk)": "2x300"
+            },
+            {
+                "Size – Size\\Name": "A2\\Basic_A2",
+                "vCPU": "2",
+                "Memory": "3.5 GB",
+                "NICs (Max)": "2",
+                "Max temporary disk size": "60 GB",
+                "Max. data disks (1023 GB each)": "4",
+                "Max. IOPS (300 per disk)": "4x300"
+            },
+            {
+                "Size – Size\\Name": "A3\\Basic_A3",
+                "vCPU": "4",
+                "Memory": "7 GB",
+                "NICs (Max)": "2",
+                "Max temporary disk size": "120 GB",
+                "Max. data disks (1023 GB each)": "8",
+                "Max. IOPS (300 per disk)": "8x300"
+            },
+            {
+                "Size – Size\\Name": "A4\\Basic_A4",
+                "vCPU": "8",
+                "Memory": "14 GB",
+                "NICs (Max)": "2",
+                "Max temporary disk size": "240 GB",
+                "Max. data disks (1023 GB each)": "16",
+                "Max. IOPS (300 per disk)": "16x300"
+            }
+        ]
+    },
+    {
+        "type": "A-series",
+        "instance": [
+            {
+                "Size": "Standard_A0",
+                "vCPU": "1",
+                "Memory: GiB": "0.768",
+                "Temp storage (HDD): GiB": "20",
+                "Max data disks": "1",
+                "Max data disk throughput: IOPS": "1x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/100"
+            },
+            {
+                "Size": "Standard_A1",
+                "vCPU": "1",
+                "Memory: GiB": "1.75",
+                "Temp storage (HDD): GiB": "70",
+                "Max data disks": "2",
+                "Max data disk throughput: IOPS": "2x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/500"
+            },
+            {
+                "Size": "Standard_A2",
+                "vCPU": "2",
+                "Memory: GiB": "3.5",
+                "Temp storage (HDD): GiB": "135",
+                "Max data disks": "4",
+                "Max data disk throughput: IOPS": "4x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/500"
+            },
+            {
+                "Size": "Standard_A3",
+                "vCPU": "4",
+                "Memory: GiB": "7",
+                "Temp storage (HDD): GiB": "285",
+                "Max data disks": "8",
+                "Max data disk throughput: IOPS": "8x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/1000"
+            },
+            {
+                "Size": "Standard_A4",
+                "vCPU": "8",
+                "Memory: GiB": "14",
+                "Temp storage (HDD): GiB": "605",
+                "Max data disks": "16",
+                "Max data disk throughput: IOPS": "16x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "4/2000"
+            },
+            {
+                "Size": "Standard_A5",
+                "vCPU": "2",
+                "Memory: GiB": "14",
+                "Temp storage (HDD): GiB": "135",
+                "Max data disks": "4",
+                "Max data disk throughput: IOPS": "4x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/500"
+            },
+            {
+                "Size": "Standard_A6",
+                "vCPU": "4",
+                "Memory: GiB": "28",
+                "Temp storage (HDD): GiB": "285",
+                "Max data disks": "8",
+                "Max data disk throughput: IOPS": "8x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/1000"
+            },
+            {
+                "Size": "Standard_A7",
+                "vCPU": "8",
+                "Memory: GiB": "56",
+                "Temp storage (HDD): GiB": "605",
+                "Max data disks": "16",
+                "Max data disk throughput: IOPS": "16x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "4/2000"
+            }
+        ]
+    },
+    {
+        "type": "A-series - compute-intensive instances",
+        "instance": [
+            {
+                "Size": "Standard_A8",
+                "vCPU": "8",
+                "Memory: GiB": "56",
+                "Temp storage (HDD): GiB": "382",
+                "Max data disks": "32",
+                "Max data disk throughput: IOPS": "32x500",
+                "Max NICs": "2"
+            },
+            {
+                "Size": "Standard_A9",
+                "vCPU": "16",
+                "Memory: GiB": "112",
+                "Temp storage (HDD): GiB": "382",
+                "Max data disks": "64",
+                "Max data disk throughput: IOPS": "64x500",
+                "Max NICs": "4"
+            },
+            {
+                "Size": "Standard_A10",
+                "vCPU": "8",
+                "Memory: GiB": "56",
+                "Temp storage (HDD): GiB": "382",
+                "Max data disks": "32",
+                "Max data disk throughput: IOPS": "32x500",
+                "Max NICs": "2"
+            },
+            {
+                "Size": "Standard_A11",
+                "vCPU": "16",
+                "Memory: GiB": "112",
+                "Temp storage (HDD): GiB": "382",
+                "Max data disks": "64",
+                "Max data disk throughput: IOPS": "64x500",
+                "Max NICs": "4"
+            }
+        ]
+    },
+    {
+        "type": "D-series",
+        "instance": [
+            {
+                "Size": "Standard_D1",
+                "vCPU": "1",
+                "Memory: GiB": "3.5",
+                "Temp storage (SSD) GiB": "50",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "3000/46/23",
+                "Max data disks/throughput: IOPS": "4/4x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/500"
+            },
+            {
+                "Size": "Standard_D2",
+                "vCPU": "2",
+                "Memory: GiB": "7",
+                "Temp storage (SSD) GiB": "100",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "6000/93/46",
+                "Max data disks/throughput: IOPS": "8/8x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/1000"
+            },
+            {
+                "Size": "Standard_D3",
+                "vCPU": "4",
+                "Memory: GiB": "14",
+                "Temp storage (SSD) GiB": "200",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "12000/187/93",
+                "Max data disks/throughput: IOPS": "16/16x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "4/2000"
+            },
+            {
+                "Size": "Standard_D4",
+                "vCPU": "8",
+                "Memory: GiB": "28",
+                "Temp storage (SSD) GiB": "400",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "24000/375/187",
+                "Max data disks/throughput: IOPS": "32/32x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/4000"
+            }
+        ]
+    },
+    {
+        "type": "D-series - memory optimized",
+        "instance": [
+            {
+                "Size": "Standard_D11",
+                "vCPU": "2",
+                "Memory: GiB": "14",
+                "Temp storage (SSD) GiB": "100",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "6000/93/46",
+                "Max data disks/throughput: IOPS": "8/8x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/1000"
+            },
+            {
+                "Size": "Standard_D12",
+                "vCPU": "4",
+                "Memory: GiB": "28",
+                "Temp storage (SSD) GiB": "200",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "12000/187/93",
+                "Max data disks/throughput: IOPS": "16/16x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "4/2000"
+            },
+            {
+                "Size": "Standard_D13",
+                "vCPU": "8",
+                "Memory: GiB": "56",
+                "Temp storage (SSD) GiB": "400",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "24000/375/187",
+                "Max data disks/throughput: IOPS": "32/32x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/4000"
+            },
+            {
+                "Size": "Standard_D14",
+                "vCPU": "16",
+                "Memory: GiB": "112",
+                "Temp storage (SSD) GiB": "800",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "48000/750/375",
+                "Max data disks/throughput: IOPS": "64/64x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/8000"
+            }
+        ]
+    },
+    {
+        "type": "Preview: DC-series",
+        "instance": [
+            {
+                "Size": "Standard_DC2s",
+                "vCPU": "2",
+                "Memory: GiB": "8",
+                "Temp storage (SSD) GiB": "100",
+                "Max data disks": "2",
+                "Max cached and temp storage throughput: IOPS / MBps (cache size in GiB)": "4000 / 32 (43)",
+                "Max uncached disk throughput: IOPS / MBps": "3200 /48",
+                "Max NICs / Expected network bandwidth (Mbps)": "2 / 1500"
+            },
+            {
+                "Size": "Standard_DC4s",
+                "vCPU": "4",
+                "Memory: GiB": "16",
+                "Temp storage (SSD) GiB": "200",
+                "Max data disks": "4",
+                "Max cached and temp storage throughput: IOPS / MBps (cache size in GiB)": "8000 / 64 (86)",
+                "Max uncached disk throughput: IOPS / MBps": "6400 /96",
+                "Max NICs / Expected network bandwidth (Mbps)": "2 / 3000"
+            }
+        ]
+    },
+    {
+        "type": "DS-series",
+        "instance": [
+            {
+                "Size": "Standard_DS1",
+                "vCPU": "1",
+                "Memory: GiB": "3.5",
+                "Temp storage (SSD) GiB": "7",
+                "Max data disks": "4",
+                "Max cached and temp storage throughput: IOPS/MBps (cache size in GiB)": "4000/32 (43)",
+                "Max uncached disk throughput: IOPS/MBps": "3200/32",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/500"
+            },
+            {
+                "Size": "Standard_DS2",
+                "vCPU": "2",
+                "Memory: GiB": "7",
+                "Temp storage (SSD) GiB": "14",
+                "Max data disks": "8",
+                "Max cached and temp storage throughput: IOPS/MBps (cache size in GiB)": "8000/64 (86)",
+                "Max uncached disk throughput: IOPS/MBps": "6400/64",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/1000"
+            },
+            {
+                "Size": "Standard_DS3",
+                "vCPU": "4",
+                "Memory: GiB": "14",
+                "Temp storage (SSD) GiB": "28",
+                "Max data disks": "16",
+                "Max cached and temp storage throughput: IOPS/MBps (cache size in GiB)": "16000/128 (172)",
+                "Max uncached disk throughput: IOPS/MBps": "12800/128",
+                "Max NICs/Expected network bandwidth (Mbps)": "4/2000"
+            },
+            {
+                "Size": "Standard_DS4",
+                "vCPU": "8",
+                "Memory: GiB": "28",
+                "Temp storage (SSD) GiB": "56",
+                "Max data disks": "32",
+                "Max cached and temp storage throughput: IOPS/MBps (cache size in GiB)": "32000/256 (344)",
+                "Max uncached disk throughput: IOPS/MBps": "25600/256",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/4000"
+            }
+        ]
+    },
+    {
+        "type": "DS-series - memory optimized",
+        "instance": [
+            {
+                "Size": "Standard_DS11",
+                "vCPU": "2",
+                "Memory: GiB": "14",
+                "Temp storage (SSD) GiB": "28",
+                "Max data disks": "8",
+                "Max cached and temp storage throughput: IOPS/MBps (cache size in GiB)": "8000/64 (72)",
+                "Max uncached disk throughput: IOPS/MBps": "6400/64",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/1000"
+            },
+            {
+                "Size": "Standard_DS12",
+                "vCPU": "4",
+                "Memory: GiB": "28",
+                "Temp storage (SSD) GiB": "56",
+                "Max data disks": "16",
+                "Max cached and temp storage throughput: IOPS/MBps (cache size in GiB)": "16000/128 (144)",
+                "Max uncached disk throughput: IOPS/MBps": "12800/128",
+                "Max NICs/Expected network bandwidth (Mbps)": "4/2000"
+            },
+            {
+                "Size": "Standard_DS13",
+                "vCPU": "8",
+                "Memory: GiB": "56",
+                "Temp storage (SSD) GiB": "112",
+                "Max data disks": "32",
+                "Max cached and temp storage throughput: IOPS/MBps (cache size in GiB)": "32000/256 (288)",
+                "Max uncached disk throughput: IOPS/MBps": "25600/256",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/4000"
+            },
+            {
+                "Size": "Standard_DS14",
+                "vCPU": "16",
+                "Memory: GiB": "112",
+                "Temp storage (SSD) GiB": "224",
+                "Max data disks": "64",
+                "Max cached and temp storage throughput: IOPS/MBps (cache size in GiB)": "64000/512 (576)",
+                "Max uncached disk throughput: IOPS/MBps": "51200/512",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/8000"
+            }
+        ]
+    },
+    {
+        "type": "Ls-series",
+        "instance": [
+            {
+                "Size": "Standard_L4s",
+                "vCPU": "4",
+                "Memory (GiB)": "32",
+                "Temp storage (GiB)": "678",
+                "Max data disks": "16",
+                "Max temp storage throughput (IOPS/MBps)": "20000/200",
+                "Max uncached disk throughput (IOPS/MBps)": "5000/125",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/4000"
+            },
+            {
+                "Size": "Standard_L8s",
+                "vCPU": "8",
+                "Memory (GiB)": "64",
+                "Temp storage (GiB)": "1388",
+                "Max data disks": "32",
+                "Max temp storage throughput (IOPS/MBps)": "40000/400",
+                "Max uncached disk throughput (IOPS/MBps)": "10000/250",
+                "Max NICs/Expected network bandwidth (Mbps)": "4/8000"
+            },
+            {
+                "Size": "Standard_L16s",
+                "vCPU": "16",
+                "Memory (GiB)": "128",
+                "Temp storage (GiB)": "2807",
+                "Max data disks": "64",
+                "Max temp storage throughput (IOPS/MBps)": "80000/800",
+                "Max uncached disk throughput (IOPS/MBps)": "20000/500",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/16000"
+            },
+            {
+                "Size": "Standard_L32s",
+                "vCPU": "32",
+                "Memory (GiB)": "256",
+                "Temp storage (GiB)": "5630",
+                "Max data disks": "64",
+                "Max temp storage throughput (IOPS/MBps)": "160000/1600",
+                "Max uncached disk throughput (IOPS/MBps)": "40000/1000",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/20000"
+            }
+        ]
+    },
+    {
+        "type": "GS-series",
+        "instance": [
+            {
+                "Size": "Standard_GS1",
+                "vCPU": "2",
+                "Memory: GiB": "28",
+                "Temp storage (SSD) GiB": "56",
+                "Max data disks": "8",
+                "Max cached and temp storage throughput: IOPS / MBps (cache size in GiB)": "10000/100 (264)",
+                "Max uncached disk throughput: IOPS/MBps": "5000/ 125",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/2000"
+            },
+            {
+                "Size": "Standard_GS2",
+                "vCPU": "4",
+                "Memory: GiB": "56",
+                "Temp storage (SSD) GiB": "112",
+                "Max data disks": "16",
+                "Max cached and temp storage throughput: IOPS / MBps (cache size in GiB)": "20000/200 (528)",
+                "Max uncached disk throughput: IOPS/MBps": "10000/ 250",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/4000"
+            },
+            {
+                "Size": "Standard_GS3",
+                "vCPU": "8",
+                "Memory: GiB": "112",
+                "Temp storage (SSD) GiB": "224",
+                "Max data disks": "32",
+                "Max cached and temp storage throughput: IOPS / MBps (cache size in GiB)": "40000/400 (1056)",
+                "Max uncached disk throughput: IOPS/MBps": "20000/ 500",
+                "Max NICs/Expected network bandwidth (Mbps)": "4/8000"
+            },
+            {
+                "Size": "Standard_GS4",
+                "vCPU": "16",
+                "Memory: GiB": "224",
+                "Temp storage (SSD) GiB": "448",
+                "Max data disks": "64",
+                "Max cached and temp storage throughput: IOPS / MBps (cache size in GiB)": "80000/800 (2112)",
+                "Max uncached disk throughput: IOPS/MBps": "40000/1000",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/16000"
+            },
+            {
+                "Size": "Standard_GS5",
+                "vCPU": "32",
+                "Memory: GiB": "448",
+                "Temp storage (SSD) GiB": "896",
+                "Max data disks": "64",
+                "Max cached and temp storage throughput: IOPS / MBps (cache size in GiB)": "160000/1600 (4224)",
+                "Max uncached disk throughput: IOPS/MBps": "80000/2000",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/20000"
+            }
+        ]
+    },
+    {
+        "type": "G-series",
+        "instance": [
+            {
+                "Size": "Standard_G1",
+                "vCPU": "2",
+                "Memory: GiB": "28",
+                "Temp storage (SSD) GiB": "384",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "6000/93/46",
+                "Max data disks/throughput: IOPS": "8/8x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/2000"
+            },
+            {
+                "Size": "Standard_G2",
+                "vCPU": "4",
+                "Memory: GiB": "56",
+                "Temp storage (SSD) GiB": "768",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "12000/187/93",
+                "Max data disks/throughput: IOPS": "16/16x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "2/4000"
+            },
+            {
+                "Size": "Standard_G3",
+                "vCPU": "8",
+                "Memory: GiB": "112",
+                "Temp storage (SSD) GiB": "1536",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "24000/375/187",
+                "Max data disks/throughput: IOPS": "32/32x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "4/8000"
+            },
+            {
+                "Size": "Standard_G4",
+                "vCPU": "16",
+                "Memory: GiB": "224",
+                "Temp storage (SSD) GiB": "3072",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "48000/750/375",
+                "Max data disks/throughput: IOPS": "64/64x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/16000"
+            },
+            {
+                "Size": "Standard_G5",
+                "vCPU": "32",
+                "Memory: GiB": "448",
+                "Temp storage (SSD) GiB": "6144",
+                "Max temp storage throughput: IOPS/Read MBps/Write MBps": "96000/1500/750",
+                "Max data disks/throughput: IOPS": "64/64x500",
+                "Max NICs/Expected network bandwidth (Mbps)": "8/20000"
+            }
+        ]
+    },
+    {
+        "type": "NV-series",
+        "instance": [
+            {
+                "Size": "Standard_NV6",
+                "vCPU": "6",
+                "Memory: GiB": "56",
+                "Temp storage (SSD) GiB": "340",
+                "GPU": "1",
+                "GPU memory: GiB": "8",
+                "Max data disks": "24",
+                "Max NICs": "1",
+                "Virtual Workstations": "1",
+                "Virtual Applications": "25"
+            },
+            {
+                "Size": "Standard_NV12",
+                "vCPU": "12",
+                "Memory: GiB": "112",
+                "Temp storage (SSD) GiB": "680",
+                "GPU": "2",
+                "GPU memory: GiB": "16",
+                "Max data disks": "48",
+                "Max NICs": "2",
+                "Virtual Workstations": "2",
+                "Virtual Applications": "50"
+            },
+            {
+                "Size": "Standard_NV24",
+                "vCPU": "24",
+                "Memory: GiB": "224",
+                "Temp storage (SSD) GiB": "1440",
+                "GPU": "4",
+                "GPU memory: GiB": "32",
+                "Max data disks": "64",
+                "Max NICs": "4",
+                "Virtual Workstations": "4",
+                "Virtual Applications": "100"
+            }
+        ]
+    }
+]
